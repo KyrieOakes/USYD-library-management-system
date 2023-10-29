@@ -1,13 +1,23 @@
-How to run the program:
+# Prerequisites
+Before proceeding, make sure you have the following software installed on your machine:
+Gradle Framework
+
+# Getting Started
+Clone the repository to your local machine
+
+#  Running the Application
+To run the application, execute the following command in the terminal:
 gradle run --console=plain
 
+Ensure that you are in the same directory path as this README file before running the command above.
 
-Note:
-Before running the program, you have to be under the same path which means the same working path with README.md file. 
+# About the Library Management System
+This program simulates a Library Management System where you can log in as either a guest or an account user.
 
-Extra requirements:
-    1.Scroll of The Day: After users log in(or guest user without logging in), a random scroll will be recommended and shown in the menu.
-    2.Scroll Encryption: When users upload a new scroll, they have set a scroll type(public/private), if the scroll is private, the user 
-    has to set a password for the scroll. And if other users want to download the scroll, they must input the correct password. Public scroll
-    can be downloaded without password, both private and public scrolls can be previewed without password.
+# Features:
+View Scrolls: Users can browse through the scrolls available in the library.
+Write Scrolls: Contribute by writing new scrolls.
+Edit User Details: Users can update their personal information.
+Administrator Functions: The system also incorporates a range of administrative functions.
 
+# Enjoy exploring the Library Management System!
